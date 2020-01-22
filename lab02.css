@@ -2,7 +2,12 @@
 /**
 https://randomuser.me/api/portraits/med/men/1.jpg
 **/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
+body{
+    font-family: 'Playfair Display', serif;
+    font-size:14px;
+}
 .context{
     max-width:500px;
     margin:auto;
