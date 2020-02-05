@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+    <title>Lab03</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="lab03.css">
+    <script src="lab03.js"></script>
+
+
+</head>
+
+
+<body>
+    
+    <div class="adDiv">
+        <h2>
+            Artist Directroy
+        </h2>
+        <div id = "ad">
+            <form>
+                <input type="text">       
+            </form>
+            
+            <div >
+                <button onclick="addartist()" id= "adding">Add artist</button>
+            </div>
+        </div>
+    </div>
+    
+    <div id = "addingsection">
+        <form id = "inputcontainer">
+
+            <input type="text" placeholder="Name of Artist" >       
+
+            <input type="text" placeholder="Description of artist" >       
+
+            <input type="text" placeholder="Insert Image url" > 
+               
+        </form>
+        <button onclick="actualaddartist()" id= "actualAddBtn">Add</button>
+
+    </div>
+
+    <div class="peopleList">
+    
+            <ul id = "list">
+                
+            </ul>
+    </div>
+    
+</body>
+</html>
