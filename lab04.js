@@ -84,6 +84,7 @@ function actualaddartist() {
 
     addartist();
     location.reload();
+    
 }
 function loadLocalStorage(){
     var keys = Object.keys(localStorage);
