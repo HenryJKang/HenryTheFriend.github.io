@@ -191,21 +191,6 @@ function searching(){
 }
 
 
-function reset(){
-    var i;
-
-    var keys = Object.keys(localStorage);
-
-    for (i=0; i<keys.length; i++){
-        let displayList = document.getElementById(keys[i]);
-
-        displayList.style.display = 'block';
-    }
-}
-
-
-
-
 
 
 
