@@ -83,6 +83,7 @@ function actualaddartist() {
     myStorage.setItem(timestamp, JSON.stringify(dataset));
 
     addartist();
+    location.reload();
 }
 function loadLocalStorage(){
     var keys = Object.keys(localStorage);
