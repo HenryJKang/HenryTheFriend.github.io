@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+    <title>Lab04</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="lab04.css">
+    
+
+
+</head>
+
+
+<body>
+    
+    <div class="adDiv">
+        <h2>
+            Artist Directroy
+        </h2>
+        <div id = "ad">
+            <form >
+                <input type="text" id = "searchbar" >       
+            </form>
+            
+            <div id="btnform" >
+                <button onclick="addartist()" id= "adding">Add</button>
+                <button onclick="searching()" id ="search">Search</button>
+            </div>
+        </div>
+    </div>
+    
+    <div id = "addingsection">
+        <form id = "inputcontainer">
+
+            <input type="text" placeholder="Name of Artist"  maxlength="40" required>       
+
+            <input type="text" placeholder="Description of artist" maxlength="40" required >       
+
+            <input type="text" placeholder="Insert Image url" > 
+               
+        </form>
+        <button onclick="actualaddartist()" id= "actualAddBtn">Add</button>
+
+    </div>
+
+    <div class="peopleList">
+    
+            <ul id = "list">
+                <li>
+
+                </li>
+                
+            </ul>
+    </div>
+    <script src="lab04.js"></script>
+</body>
+</html>
